@@ -1,0 +1,11 @@
+[package]
+name = "scholarship_platform"
+version = "1.0.0"
+upgrade_policy = "compatible"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework", rev = "main" }
+
+[addresses]
+scholarship_platform = "0x74b5179e5a25a09620e85ffe50d1e06040e916e343fc7c2363321b379ce5ca19"
+

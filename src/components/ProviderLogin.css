@@ -1,0 +1,204 @@
+.provider-login {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.login-card {
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.login-content {
+  width: 100%;
+  padding: 20px;
+}
+
+.wallet-section {
+  text-align: center;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.connect-button {
+  height: 50px;
+  font-size: 16px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(24, 144, 255, 0.3);
+}
+
+.connect-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(24, 144, 255, 0.4);
+}
+
+.wallet-status {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.connected-button {
+  height: 50px;
+  font-size: 16px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #52c41a 0%, #389e0d 100%) !important;
+  border: none;
+  box-shadow: 0 4px 15px rgba(82, 196, 26, 0.3);
+}
+
+.disconnect-button {
+  height: 40px;
+  border-radius: 20px;
+}
+
+.wallet-info {
+  text-align: left;
+  padding: 20px;
+  background: #f0f8ff;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.info-row .ant-typography {
+  margin: 0;
+}
+
+.address-text {
+  display: inline-block;
+  margin: 0;
+  word-break: keep-all;
+  font-size: 12px;
+  background: #e6f7ff;
+  padding: 8px;
+  border-radius: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  flex-shrink: 0;
+}
+
+.key-text {
+  display: inline-block;
+  margin: 0;
+  word-break: keep-all;
+  font-size: 12px;
+  background: #e6f7ff;
+  padding: 8px;
+  border-radius: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  flex-shrink: 0;
+}
+
+
+
+.amount-section {
+  text-align: center;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.amount-input {
+  margin: 20px 0;
+}
+
+.platform-info {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f6ffed;
+  border-radius: 10px;
+  border: 1px solid #b7eb8f;
+}
+
+.submit-button {
+  height: 50px;
+  font-size: 16px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(24, 144, 255, 0.3);
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(24, 144, 255, 0.4);
+}
+
+.submit-button:disabled {
+  background: #d9d9d9 !important;
+  box-shadow: none;
+  transform: none;
+}
+
+.transaction-status {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f0f8ff;
+  border-radius: 8px;
+  border: 1px solid #d6e4ff;
+  text-align: center;
+}
+
+.transaction-status .ant-typography {
+  margin: 0;
+  font-size: 14px;
+}
+
+.demo-notice {
+  margin: 15px 0;
+  padding: 10px;
+  background: #fff7e6;
+  border-radius: 8px;
+  border: 1px solid #ffd591;
+  text-align: center;
+}
+
+.demo-notice .ant-typography {
+  margin: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    max-width: 100%;
+  }
+  
+  .login-content {
+    padding: 15px;
+  }
+  
+  .wallet-section,
+  .amount-section {
+    padding: 20px;
+  }
+}
+

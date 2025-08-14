@@ -1,0 +1,128 @@
+.provider-requirements {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.requirements-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.requirements-card {
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.requirements-content {
+  width: 100%;
+  padding: 20px;
+}
+
+.header-section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header-section h2 {
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.summary-section {
+  margin: 20px 0;
+}
+
+.summary-card {
+  background: #f0f8ff;
+  border: 1px solid #91d5ff;
+  border-radius: 10px;
+}
+
+.form-section {
+  padding: 20px 0;
+}
+
+.form-section h4 {
+  color: #262626;
+  margin: 30px 0 10px 0;
+}
+
+.form-section .ant-typography {
+  margin-bottom: 15px;
+}
+
+.checkbox-group {
+  margin: 15px 0 30px 0;
+}
+
+.checkbox-group .ant-checkbox-wrapper {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.checkbox-group .ant-checkbox-wrapper:hover {
+  background: #f5f5f5;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 2px -8px;
+}
+
+.submit-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.submit-button {
+  height: 50px;
+  font-size: 16px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(24, 144, 255, 0.3);
+  padding: 0 40px;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(24, 144, 255, 0.4);
+}
+
+.info-section {
+  text-align: center;
+  padding: 20px;
+  background: #f6ffed;
+  border-radius: 10px;
+  border: 1px solid #b7eb8f;
+}
+
+.info-section .ant-typography {
+  color: #52c41a;
+  font-size: 16px;
+}
+
+.info-section .anticon {
+  margin-right: 8px;
+  color: #52c41a;
+}
+
+@media (max-width: 768px) {
+  .requirements-container {
+    max-width: 100%;
+  }
+  
+  .requirements-content {
+    padding: 15px;
+  }
+  
+  .form-section h4 {
+    margin: 20px 0 10px 0;
+  }
+  
+  .checkbox-group .ant-checkbox-wrapper {
+    font-size: 14px;
+  }
+}
+

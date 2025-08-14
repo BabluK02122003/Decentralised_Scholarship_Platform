@@ -1,0 +1,256 @@
+.scholarship-application {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  padding: 20px;
+}
+
+.application-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-section {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  font-size: 16px;
+}
+
+.back-button:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.scholarship-summary {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.summary-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.summary-icon {
+  font-size: 1.5rem;
+  color: #52c41a;
+}
+
+.summary-value {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.summary-card .ant-typography {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.application-card {
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: none;
+  background: white;
+}
+
+.application-steps {
+  margin-bottom: 30px;
+}
+
+.steps-content {
+  min-height: 300px;
+  padding: 20px 0;
+}
+
+.step-content {
+  text-align: center;
+}
+
+.step-content h3 {
+  color: #262626;
+  margin-bottom: 15px;
+}
+
+.step-content .ant-typography {
+  color: #595959;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.form-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.radio-option {
+  padding: 15px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.radio-option:hover {
+  border-color: #1890ff;
+  background: #f0f8ff;
+}
+
+.radio-option.ant-radio-wrapper-checked {
+  border-color: #1890ff;
+  background: #f0f8ff;
+}
+
+.checkbox-group {
+  margin-top: 15px;
+}
+
+.checkbox-group .ant-checkbox-wrapper {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.checkbox-group .ant-checkbox-wrapper:hover {
+  border-color: #1890ff;
+  background: #f0f8ff;
+}
+
+.checkbox-group .ant-checkbox-wrapper-checked {
+  border-color: #1890ff;
+  background: #f0f8ff;
+}
+
+.steps-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.back-button-step {
+  height: 45px;
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+
+.next-button {
+  height: 45px;
+  font-size: 16px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(24, 144, 255, 0.3);
+  padding: 0 30px;
+}
+
+.next-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(24, 144, 255, 0.4);
+}
+
+.next-button:disabled {
+  background: #d9d9d9 !important;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Result page styles */
+.step-content .ant-result {
+  padding: 40px 0;
+}
+
+.step-content .ant-result-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step-content .ant-result-subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+.step-content .ant-result-extra {
+  margin-top: 30px;
+}
+
+.step-content .ant-result-extra .ant-btn {
+  height: 45px;
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 0 30px;
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .application-container {
+    max-width: 100%;
+  }
+  
+  .header-section {
+    text-align: center;
+  }
+  
+  .back-button {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .scholarship-summary {
+    margin-top: 30px;
+  }
+  
+  .summary-card .ant-col {
+    margin-bottom: 15px;
+  }
+  
+  .form-section .ant-col {
+    margin-bottom: 20px;
+  }
+  
+  .radio-group {
+    gap: 10px;
+  }
+  
+  .radio-option {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .steps-action {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .next-button,
+  .back-button-step {
+    width: 100%;
+  }
+}
+
